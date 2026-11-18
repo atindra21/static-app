@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#10130f" />
+    <meta name="description" content="A home for the beautiful game. Discover the stories, rituals, and moments that make football more than a match." />
+    <title>TOUCHLINE — The beautiful game, up close</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Touchline home">TOUCHLINE<span>®</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#story">THE STORY</a>
+        <a href="#culture">CULTURE</a>
+        <a href="#newsletter">THE GOOD WORD</a>
+      </nav>
+      <a class="header-cta" href="#newsletter">GET IN THE GAME <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Footballers competing for the ball under stadium lights"></div>
+        <div class="hero-topline"><span>ISSUE NO. 01</span><span>THE WORLD'S GAME, TOLD DIFFERENTLY</span></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="live-dot"></span> MORE THAN 90 MINUTES</p>
+          <h1 id="hero-title">THE GAME<br />IS <em>EVERYTHING.</em></h1>
+          <div class="hero-bottom">
+            <p>For the ones who live every pass, every chant, every last-minute winner. This is football, from the inside out.</p>
+            <a class="round-link" href="#story" aria-label="Discover the story">↓</a>
+          </div>
+        </div>
+        <div class="hero-caption"><span>01 / 04</span><span>ONE GAME. A MILLION STORIES.</span></div>
+      </section>
+
+      <section class="ticker" aria-label="Football is for everyone"><div class="ticker-track"><span>ONE GAME, EVERYWHERE</span><b>✳</b><span>ONE GAME, EVERYWHERE</span><b>✳</b><span>ONE GAME, EVERYWHERE</span><b>✳</b><span>ONE GAME, EVERYWHERE</span><b>✳</b></div></section>
+
+      <section class="manifesto section-wrap" id="story">
+        <div class="section-label"><span>01 — WHY WE'RE HERE</span><span>EST. FOR THE LOVE OF IT</span></div>
+        <div class="manifesto-grid">
+          <h2>IT'S NEVER<br />JUST A <span>GAME.</span></h2>
+          <div class="manifesto-copy"><p class="big-copy">It's the walk to the ground. The shirt passed down. A stranger becoming family when the net ripples.</p><p>Football belongs to all of us. To the streets and the stands, to the early kick-offs and the late-night replays. We're here for every part of it — and everyone who makes it what it is.</p><a class="text-link" href="#culture">THIS IS OUR GAME <span>↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="culture" id="culture">
+        <div class="culture-photo" role="img" aria-label="A football resting on the pitch"></div>
+        <div class="culture-content"><div class="section-label"><span>02 — THE CULTURE</span><span>BEYOND THE PITCH</span></div><p class="eyebrow">IT'S IN THE DETAILS</p><h2>MADE OF<br />MOMENTS.</h2><p class="culture-description">The muddy boots. The lucky scarf. The goal you still talk about. Football isn't only played — it's felt, remembered, and handed down.</p><a class="light-link" href="#newsletter">STAY A LITTLE LONGER <span>↗</span></a><span class="culture-index">A GAME FOR EVERY GENERATION.</span></div>
+      </section>
+
+      <section class="values section-wrap">
+        <div class="section-label"><span>03 — OUR TOUCHLINE</span><span>EVERY VOICE. EVERY VERSION.</span></div>
+        <div class="values-grid">
+          <article class="value-card"><span class="card-number">01</span><span class="value-icon">◎</span><h3>FOR THE<br />PEOPLE</h3><p>Local ground or world stage. The game is nothing without the people who bring it to life.</p></article>
+          <article class="value-card"><span class="card-number">02</span><span class="value-icon">✳</span><h3>FOR THE<br />LOVE</h3><p>Not the noise around it. The feeling that keeps you coming back, season after season.</p></article>
+          <article class="value-card"><span class="card-number">03</span><span class="value-icon">↗</span><h3>FOR WHAT'S<br />NEXT</h3><p>A game that's always changing — and always has room for one more in the stands.</p></article>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter">
+        <div class="newsletter-noise"></div>
+        <div class="newsletter-inner"><p class="eyebrow"><span class="live-dot"></span> A NOTE FROM THE TOUCHLINE</p><h2>GOOD GAME.<br /><em>GOOD PEOPLE.</em></h2><p class="newsletter-copy">Stories, culture, and the stuff that makes football feel like football. A little something for your inbox.</p>
+          <form class="signup-form" id="signup-form"><label class="visually-hidden" for="email">Your email address</label><input id="email" name="email" type="email" placeholder="YOUR EMAIL ADDRESS" autocomplete="email" required /><button type="submit" aria-label="Sign up for the newsletter">COUNT ME IN <span>↗</span></button></form><p class="form-message" id="form-message" role="status" aria-live="polite">No spam. Just the good stuff, when we have it.</p>
+        </div>
+        <span class="newsletter-mark">T.</span>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="wordmark" href="#home">TOUCHLINE<span>®</span></a><span>FOOTBALL IS FOR EVERYONE.</span><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© 2025 TOUCHLINE STUDIO</span></footer>
+  </body>
+</html>
